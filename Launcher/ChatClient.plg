@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChatClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ChatClient.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\admin\Desktop\chatting using  CSocket\Chatting using CSocket_src\ChatClient\ChatClient.rc"" 
+Creating temporary file "C:\DOCUME~1\admin\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\admin\Desktop\chatting using  CSocket\Chatting using CSocket_src\ChatClient\ChatClient.cpp"
+"C:\Documents and Settings\admin\Desktop\chatting using  CSocket\Chatting using CSocket_src\ChatClient\ChatClientDlg.cpp"
+"C:\Documents and Settings\admin\Desktop\chatting using  CSocket\Chatting using CSocket_src\ChatClient\ClientSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\admin\LOCALS~1\Temp\RSP225.tmp" 
+Creating temporary file "C:\DOCUME~1\admin\LOCALS~1\Temp\RSP226.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatClient.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\admin\Desktop\chatting using  CSocket\Chatting using CSocket_src\ChatClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\admin\LOCALS~1\Temp\RSP226.tmp" 
+Creating temporary file "C:\DOCUME~1\admin\LOCALS~1\Temp\RSP227.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ChatClient.pdb" /debug /machine:I386 /out:"Debug/ChatClient.exe" /pdbtype:sept 
+".\Debug\ChatClient.obj"
+".\Debug\ChatClientDlg.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ChatClient.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\admin\LOCALS~1\Temp\RSP227.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatClient.cpp
+ChatClientDlg.cpp
+ClientSocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ChatClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
