@@ -26,15 +26,26 @@
 *.a
 *.lib
 
-# folders
-
-**/Release/*
+**Release*
+**Debug*
 
 # Executables
 *.exe
 *.out
 *.app
 *.suo
-*.vs*
-*.opendb
+
+.vs/all/v14/.suo
+*.db
+*.log
 *.tlog
+*.lastbuildstate
+*.cache
+*.pdb
+*.res
+*.log
+*.lastbuildstate
+*.ipch
+*.exp
+*.iobj
+*.ipdb
