@@ -26,7 +26,15 @@
 *.a
 *.lib
 
+# folders
+
+**/Release/*
+
 # Executables
 *.exe
 *.out
 *.app
+*.suo
+*.vs*
+*.opendb
+*.tlog

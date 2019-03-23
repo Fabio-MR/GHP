@@ -1,5 +1,13 @@
-﻿  ChatServer.cpp
+﻿  StdAfx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ChatServer.cpp
 ChatServer.cpp(54): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afxwin2.inl(1074): note: see declaration of 'CWinApp::Enable3dControls'
+  ChatServerDlg.cpp
+  ClientSocket.cpp
+  ServerSocket.cpp
+  Generating Code...
   GHPServer.vcxproj -> C:\Users\serve\OneDrive\Documentos\Visual Studio 2015\Projects\GHP\Release\GHPServer.exe
   GHPServer.vcxproj -> C:\Users\serve\OneDrive\Documentos\Visual Studio 2015\Projects\GHP\Release\GHPServer.pdb (Full PDB)

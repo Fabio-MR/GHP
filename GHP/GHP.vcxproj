@@ -101,9 +101,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="..\Resource\splash.bmp" />
     <Image Include="bitmap1.bmp" />
   </ItemGroup>
