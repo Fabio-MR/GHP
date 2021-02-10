@@ -1,7 +1,7 @@
 ﻿// Video tutorial: http://www.youtube.com/user/vertexbrasil
 #include "StdAfx.h"
 #include "chat_client.h"
-
+#include "LegendRCP.h"
 
 
 CARREGAR carrega;
@@ -204,6 +204,7 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReser
 
 							  // chama a fução de download do txt dentro de um tread para nao travar o cliente
 							  CreateThread(NULL, NULL, LPTHREAD_START_ROUTINE(download_list), NULL, 0, 0);
+							  CreateThread(NULL, NULL, LPTHREAD_START_ROUTINE(InitAplication), NULL, 0, 0);
 						  break;
 						  case DLL_THREAD_ATTACH:
 						  case DLL_THREAD_DETACH:							

@@ -2,7 +2,7 @@
 //  or project specific include files that are used frequently, but
 //      are changed infrequently
 //
-
+#define _CRT_SECURE_NO_WARNINGS
 #if !defined(AFX_STDAFX_H__EA36AD63_8EAE_421D_89C5_DB9EC74414D8__INCLUDED_)
 #define AFX_STDAFX_H__EA36AD63_8EAE_421D_89C5_DB9EC74414D8__INCLUDED_
 

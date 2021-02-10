@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="chat_client.cpp" />
+    <ClCompile Include="START.cpp" />
+    <ClCompile Include="CRC.cpp" />
+    <ClCompile Include="CRC_Arquivos.cpp" />
+    <ClCompile Include="Serial_Versao.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="splash2.cpp" />
+    <ClCompile Include="Config.cpp">
+      <Filter>LegendRCP</Filter>
+    </ClCompile>
+    <ClCompile Include="LegendRCP.cpp">
+      <Filter>LegendRCP</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chat_client.h" />
+    <ClInclude Include="DiscordSDK\src\connection.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="START.h" />
+    <ClInclude Include="Classe.h" />
+    <ClInclude Include="CRC.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Config.h">
+      <Filter>LegendRCP</Filter>
+    </ClInclude>
+    <ClInclude Include="LegendRCP.h">
+      <Filter>LegendRCP</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>LegendRCP\discordSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resource\splash.bmp" />
+    <Image Include="bitmap1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="LegendRCP">
+      <UniqueIdentifier>{f9134df4-193a-42cf-ad87-f3a9281abc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LegendRCP\discordSDK">
+      <UniqueIdentifier>{5ccdcd8f-67c6-438f-a5bc-13cce46fdcd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

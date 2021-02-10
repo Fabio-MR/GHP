@@ -52,6 +52,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../GHP/DiscordSDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -67,6 +68,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../GHP/DiscordSDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -77,6 +79,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chat_client.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp" />
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp" />
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp" />
+    <ClCompile Include="DiscordSDK\src\serialization.cpp" />
+    <ClCompile Include="LegendRCP.cpp" />
     <ClCompile Include="START.cpp" />
     <ClCompile Include="CRC.cpp" />
     <ClCompile Include="CRC_Arquivos.cpp" />
@@ -86,6 +96,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chat_client.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DiscordSDK\src\backoff.h" />
+    <ClInclude Include="DiscordSDK\src\connection.h" />
+    <ClInclude Include="DiscordSDK\src\msg_queue.h" />
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h" />
+    <ClInclude Include="DiscordSDK\src\serialization.h" />
+    <ClInclude Include="LegendRCP.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="START.h" />
     <ClInclude Include="Classe.h" />
