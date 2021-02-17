@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define RCP_FILENAME "rcp.bin"
+#define RCP_FILENAME "Data\\rcp.bin"
 #define DFT_STATE "Playing Raiderz Legend"
 #define DFT_DETAILS "In Login"
 #define DFT_NULL_STR ""
