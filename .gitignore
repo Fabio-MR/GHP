@@ -50,3 +50,4 @@
 *.iobj
 *.ipdb
 all.VC.VC.opendb
+*.db
